@@ -1,0 +1,32 @@
+body {
+	font: 62.5%/1.4 "Times New Roman", Times, serif;;
+}
+header {
+    height: 8em;
+    width: 100%;
+    background-color: #dde1ee;
+    position: relative;
+}
+.menu {
+    color: white;
+    display: block;
+    font-size: 1.6em;
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    transform: translateX(-30%) translateY(-50%);
+}   
+    .menu li {
+        background-color: #dde1ee;
+        border-radius: 1px;
+        float: left;
+        border: 1px solid white;
+        padding: 0.6em;
+        margin: 0 0.4em;
+    }
+    .menu a {
+        color: inherit;
+        font-weight: bold;
+        text-decoration: none;
+        text-transform: uppercase
+    }
