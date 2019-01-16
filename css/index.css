@@ -1,32 +1,50 @@
 body {
 	font: 62.5%/1.4 "Times New Roman", Times, serif;;
 }
-header {
-    height: 8em;
+.header {
     width: 100%;
     background-color: #dde1ee;
-    position: relative;
+    background: url("../img/destaque.jpeg") no-repeat;
+    background-size: cover;
+    padding-top: 3.5em;
 }
-.menu {
-    color: white;
-    display: block;
-    font-size: 1.6em;
-    position: absolute;
-    top: 50%;
-    left: 35%;
-    transform: translateX(-30%) translateY(-50%);
-}   
-    .menu li {
-        background-color: #dde1ee;
-        border-radius: 1px;
-        float: left;
-        border: 1px solid white;
-        padding: 0.6em;
-        margin: 0 0.4em;
-    }
-    .menu a {
-        color: inherit;
+    .header .menu {
+        color: white;
+        font-size: 1.6em;
+        text-align: center;
+    }      
+        .header .menu li {
+            background-color: rgba(0, 0, 0, 0.2);
+            border-radius: 3px;
+            display: inline-block;
+            padding: 0.6em;
+            margin: 0 0.4em;
+            transition: background-color 0.5s;
+        }
+
+        .header .menu li:hover {
+            background-color: #48A3A6;
+        }
+
+        .header .menu a {
+            color: inherit;
+            font-weight: bold;
+            text-decoration: none;
+            text-transform: uppercase
+        }
+
+.main-painel {
+    text-align: center;
+}
+
+    .main-painel .sign-up a {
+        background-color: #48A3A6;
+        border: 1px solid black;
+        border-radius: 5px;
+        color: white;
+        font-size: 1.6em;
         font-weight: bold;
+        padding: 1em 1.5em;
         text-decoration: none;
-        text-transform: uppercase
+        text-transform: uppercase;
     }
