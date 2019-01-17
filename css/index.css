@@ -1,12 +1,24 @@
 body {
 	font: 62.5%/1.4 "Times New Roman", Times, serif;;
 }
+.anchor-header {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase
+}
+.title-header {
+    text-transform: uppercase;
+    text-shadow: 4px 4px 10px black;
+    line-height: 1em;
+}
 .header {
     width: 100%;
     background-color: #dde1ee;
     background: url("../img/destaque.jpeg") no-repeat;
     background-size: cover;
     padding-top: 3.5em;
+    padding-bottom: 5.5em;
 }
     .header .menu {
         color: white;
@@ -26,25 +38,37 @@ body {
             background-color: #48A3A6;
         }
 
-        .header .menu a {
-            color: inherit;
-            font-weight: bold;
-            text-decoration: none;
-            text-transform: uppercase
-        }
-
 .main-painel {
     text-align: center;
 }
-
+    .main-painel .conf-information h1 {
+        color: white;
+        font-size: 4.4em;
+        font-weight: bold;
+        padding-top: 0.2em;
+    }
+    .main-painel .conf-information h2 {
+        color: #76ff40;
+        font-size: 3.8em;
+        padding: 0.2em 0 1.2em 0;
+    }
     .main-painel .sign-up a {
         background-color: #48A3A6;
         border: 1px solid black;
-        border-radius: 5px;
-        color: white;
+        border-radius: 10px;
         font-size: 1.6em;
-        font-weight: bold;
-        padding: 1em 1.5em;
-        text-decoration: none;
-        text-transform: uppercase;
+        font-weight: 1000;
+        padding: 1.5em 3em;
     }
+    
+@media screen and (min-width: 880px) {
+
+    .main-painel .conf-information h1 {
+        font-size: 8em;
+    }
+
+    .main-painel .conf-information h2 {
+        font-size: 7.2em;
+        padding: 0.2em 0 0.8em 0;
+    }
+}
