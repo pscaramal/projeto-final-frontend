@@ -72,3 +72,23 @@ body {
         padding: 0.2em 0 0.8em 0;
     }
 }
+/*Panel 'About' Styles*/
+.panel-about {
+    margin-top: 1.5em;
+    text-align: center;
+    background-color: white;
+}
+    .panel-about h2.title-about {
+        font: 3em black bold;
+    }
+    .panel-about h3.subtitle-about {
+        font: 2em black bold;
+        margin-top: .5em;
+    }
+    .panel-about .about-description {
+        margin-top: 1.2em;
+    }
+    .panel-about .about-description p {
+        font-size: 1.5em;
+        line-height: 2;
+    }

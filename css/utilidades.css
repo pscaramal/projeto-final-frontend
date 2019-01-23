@@ -11,4 +11,7 @@
   .cf:after {
       clear: both;
   }
-  
+  .container {
+      width: 96%;
+      margin: 0 auto;
+  }
