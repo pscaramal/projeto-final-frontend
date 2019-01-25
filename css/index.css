@@ -82,7 +82,7 @@ body {
         font: 3em black bold;
     }
     .panel-about h3.subtitle-about {
-        font: 2em black bold;
+        font: 2.2em black bold;
         margin-top: .5em;
     }
     .panel-about .about-description {
@@ -92,3 +92,53 @@ body {
         font-size: 1.5em;
         line-height: 2;
     }
+
+/*Panel Speakers*/
+.panel-speakers {
+    background-color: #f17e50;
+}
+    .panel-speakers .about-speaker {
+        text-align: center;
+        color: white;
+        font-weight: bold;
+        padding: 3em 5% 0;
+    }
+        .panel-speakers .about-speaker .title-speakers {
+            text-transform: uppercase;
+            font-size: 3em;
+        }
+        .panel-speakers .about-speaker .subtitle-speakers {
+            font-size: 2.2em;
+        }
+    .panel-speakers ul.speakers {
+        padding: 2em 5%;
+        text-align: center;
+    }
+        .panel-speakers ul.speakers .speaker {
+            display: inline-block;
+            background-color: white;
+            vertical-align: top;
+            margin: 0 0.8em 2em 0.8em;
+            border-radius: 5px;
+            padding: 1.5em;
+            width: 25em;
+        }
+            .panel-speakers ul.speakers .speaker .speaker-portrait .speaker-image{
+                border-radius: 50%;
+                width: auto;
+                height: auto;
+                max-width: 90%;
+                max-height: 22em;
+            }
+            .panel-speakers .speaker-bio {
+                font-weight: bold;
+                margin-bottom: 0.8em;
+            }
+            .panel-speakers .speaker-name {
+                margin: 0.8em;
+            }
+            .panel-speakers .speaker-bio,
+            .panel-speakers .speaker-name,
+            .panel-speakers .speaker-speach {
+                font-size: 1.5em;
+            }
