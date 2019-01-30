@@ -142,3 +142,47 @@ body {
             .panel-speakers .speaker-speach {
                 font-size: 1.5em;
             }
+/*Panel form*/
+.panel-signup {
+    background-color: white;
+    padding: 4em 5%;
+}
+    .panel-signup .user-form {
+        text-align: center;
+    }
+        .user-form .title-form {
+            color: #f17e50;
+            font-size: 3.2em;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+    .panel-signup .label-form{
+        color: black;
+        font-size: 2em;
+        font-weight: bold;
+        display: block;
+        margin: 0.45em 0;
+        text-align: left;
+    }
+    .panel-signup .input-form {
+        display: block;
+        width: 100%;
+        border: 1px solid black;
+        border-radius: 5px;
+        font-size: 2em;
+        padding: 0.25em;
+        box-shadow: #48A3A6 2px 2px 4px,
+                    #48A3A6 -2px -2px 4px;
+    }
+        .input-form.input-email {
+           margin-bottom: 1em;
+        }
+    .panel-signup .user-form .button-submit {
+        background-color: #48A3A6;
+        font-weight: bold;
+        font-size: 2em;
+        color: white;
+        text-transform: uppercase;
+        padding: 1.3em 3em;
+        border-radius: 10px;
+    }
