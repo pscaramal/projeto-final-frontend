@@ -16,8 +16,8 @@
         <header class="header">
             <nav class="navigation">
                 <ul class="menu">
-                    <li><a class="anchor-header" href="#">Sobre</a></li>
-                    <li><a class="anchor-header" href="#">Palestrantes</a></li>
+                    <li><a id="button-about" href="#panel-about" class="anchor-header">Sobre</a></li>
+                    <li><a id="button-speakers" href="#panel-speakers" class="anchor-header">Palestrantes</a></li>
                 </ul>
             </nav>
             <div class="jumbotron">
@@ -26,11 +26,11 @@
                     <h2 class="title-header">30maio|rio</h2>
                 </section>
                 <section class="panel-subscribe">
-                    <a class="anchor-header" href="#">Inscreva-se</a>
+                    <a id="button-subscribe" href="#panel-subscribe" class="anchor-header">Inscreva-se</a>
                 </section>
             </div>
         </header>
-        <section class="panel-about">
+        <section id="panel-about" class="panel-about">
             <div class="container">
                 <h2 class="title-about">Muito conteúdo: do frontend ao backend</h2>
                 <h3 class="subtitle-about">30 de Maio de 2017 - na Cidade Maravilhosa</h3>
@@ -45,7 +45,7 @@
                 </div>
             </div>
         </section>
-        <section class="panel-speakers">
+        <section id="panel-speakers" class="panel-speakers">
             <div class="about-speaker">
                 <h2 class="title-speakers">Palestrantes</h2>
                 <h3 class="subtitle-speakers">Aprenda com palestrantes que são referência no mercado</h3>
@@ -110,7 +110,7 @@
             </ul>
         </section>
 
-        <section class="panel-signup">
+        <section id="panel-subscribe" class="panel-signup">
             <div class="container">
                 <form class="user-form">
                     <h2 class="title-form">Seus Dados</h2>
@@ -127,6 +127,7 @@
         </section>
     </div>
     <script src="js/jquery.js"></script>
+    <script src="js/index.js"></script>
 </body>
 
 </html>
